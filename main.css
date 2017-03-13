@@ -1,0 +1,175 @@
+/*  Sheet styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+    padding: 0 0.9rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+}
+
+:focus {
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Nav section */
+
+.nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    margin-top: -1rem;
+}
+
+.nav> .content {
+    height: 1rem;
+}
+
+.nav .links {
+    float: left;
+    color: white;
+    font-size: 1.00rem;
+    margin-top: 1rem;
+}
+
+.nav .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+
+.nav .links li a {
+    text-decoration: none;
+    color: #838994;
+}
+
+.nav .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+#logo {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+
+/* Intro Section */
+
+.intro {
+    background: url('/images/img.jpg') no-repeat center bottom;
+    background-size: cover;
+    height: 38rem;
+    overflow: auto;
+}
+
+.intro h1,
+.intro h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.intro h1 {
+    margin-top: 5.5rem;
+    font-size: 2.5rem;
+}
+
+.intro h3 {
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+}
+
+.question-page {
+    background-color: gray;
+    background-size: cover;
+    height: 20rem;
+    overflow: auto;
+}
+
+.question-text {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+#choices {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.option:hover {
+    cursor: pointer;
+}
+
+.question-count {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 1.7rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.game-start {
+    background-color: green;
+    width: 9.688rem;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+}
+
+.game-start a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.results-text button {
+    background-color: green;
+    width: 9.688rem;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    font-size: 1.125rem;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.game-start:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #708090;
+    border-top: 0.5rem solid white;
+    color: white;
+    text-align: center;
+    height: 4.6rem;
+    margin-top: -1rem;
+    font-weight: 100;
+}
+
+footer p {
+    padding-top: rem;
+}
