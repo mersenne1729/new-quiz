@@ -65,7 +65,7 @@ ul {
 /* Intro Section */
 
 .intro {
-    background: url('/images/img.jpg') no-repeat center bottom;
+    background: url('images/img.jpg') no-repeat center bottom;
     background-size: cover;
     height: 38rem;
     overflow: auto;
