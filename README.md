@@ -2,11 +2,7 @@
 
 ## Synopsis
 
-This site features a fun and interesting quiz on Roman history using JavaScript arrays. 
- 
-## Motivation
-
-This site is made for those who are interested in testing their general knowledge on Roman history in a dynamic and easily assessable format.
+Just to see if I can make a working quiz using Roman history and JavaScript arrays. 
 
 ## Initial UX
 
@@ -29,9 +25,3 @@ The site's functionality includes:
 ## Technical
 
 The site is built with HTML, CSS, JavaScript and jQuery. It has been built to be fully responsive across mobile, tablet and desktop screen resolutions.
-
-## Development Roadmap
-
-This is v1.0 of the site, future enhancements will include:
-* The addition of the physics and philosophy quizzes.
-* A dynamic background that will relate to the questions.
